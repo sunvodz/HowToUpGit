@@ -1,0 +1,23 @@
+echo "# xxxxx" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/sunvodz/xxxxx.git
+git push -u origin master
+
+git pull
+
+git branch sunvo
+
+git checkout sunvo             create branch name dev
+
+git add *                    add all file go to in branch dev 
+
+git status                   checking status add file
+
+git commit -m "file commit"  commit branch dev and branch master 
+
+git checkout master          back to branch master
+
+
+git push -u origin master    up file in commit go to git 
