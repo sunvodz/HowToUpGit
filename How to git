@@ -1,3 +1,10 @@
+git config --global user.name "username"
+git config user.name "username"
+git config --global user.email [your email address here]
+git config user.email [your email address here]
+
+git config --list
+
 echo "# xxxxx" >> README.md
 git init
 git add README.md
@@ -21,3 +28,15 @@ git checkout master          back to branch master
 
 
 git push -u origin master    up file in commit go to git 
+
+
+
+gitk --all 
+
+git reset soft/mixed/hard idcommit 
+git reset HEAD~2
+git reset --soft HEAD
+
+git pull --rebase 
+git fetch origin
+git pull [your branch] 
