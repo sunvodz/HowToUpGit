@@ -37,6 +37,8 @@ git reset soft/mixed/hard idcommit
 git reset HEAD~2
 git reset --soft HEAD
 
+git restore [file name]
+
 git pull --rebase 
 git fetch origin
 git pull [your branch] 
